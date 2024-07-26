@@ -1,0 +1,15 @@
+{
+    "name": "webdev/slider",
+    "autoload": {
+        "psr-4": {
+            "Webdev\\Slider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Unknown",
+            "email": "unknown@gmail.com"
+        }
+    ],
+    "require": {}
+}

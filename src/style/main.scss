@@ -1,0 +1,39 @@
+form.woocommerce-cart-form .delivery-option , .woocommerce-checkout-review-order-table .delivery-option {
+    display: flex;
+    flex-direction: column;
+}
+form.woocommerce-cart-form .react-datepicker-wrapper  {
+
+    width: 100%;
+    input{
+        width: 100%; 
+    }
+}
+
+.woocommerce-checkout-review-order-table .delivery-option > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+}
+.woocommerce-checkout-review-order-table select.co_recurring_delivery_date {
+    width: 70%;
+    max-width: fit-content;
+    min-width: 70%;
+    margin: 0;
+}
+.woocommerce-checkout-review-order-table label {
+    display: block;
+    margin: 0;
+}
+.woocommerce-checkout-review-order-table .react-datepicker__input-container input {
+    width: 100%;
+}
+.woocommerce-checkout-review-order-table .react-datepicker-wrapper {
+    width: 70%;
+}
+.woocommerce-checkout-review-order-table .react-datepicker__tab-loop {
+    position: absolute;
+}
